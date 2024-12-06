@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MeSDEV_Fichier_C#/1.0.0": {
+        "runtime": {
+          "MeSDEV_Fichier_C#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MeSDEV_Fichier_C#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

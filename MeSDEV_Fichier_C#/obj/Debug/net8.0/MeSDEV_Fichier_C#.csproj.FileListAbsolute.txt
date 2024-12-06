@@ -1,0 +1,15 @@
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\bin\Debug\net8.0\MeSDEV_Fichier_C#.exe
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\bin\Debug\net8.0\MeSDEV_Fichier_C#.deps.json
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\bin\Debug\net8.0\MeSDEV_Fichier_C#.runtimeconfig.json
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\bin\Debug\net8.0\MeSDEV_Fichier_C#.dll
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\bin\Debug\net8.0\MeSDEV_Fichier_C#.pdb
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\MeSDEV_Fichier_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\MeSDEV_Fichier_C#.AssemblyInfoInputs.cache
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\MeSDEV_Fichier_C#.AssemblyInfo.cs
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\MeSDEV_Fichier_C#.csproj.CoreCompileInputs.cache
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\MeSDEV_Fichier_C#.sourcelink.json
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\MeSDEV_Fichier_C#.dll
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\refint\MeSDEV_Fichier_C#.dll
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\MeSDEV_Fichier_C#.pdb
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\MeSDEV_Fichier_C#.genruntimeconfig.cache
+C:\Users\adrie\fleet\Mise_en_Situation_DEV\MeSDEV_Fichier_C#\obj\Debug\net8.0\ref\MeSDEV_Fichier_C#.dll
