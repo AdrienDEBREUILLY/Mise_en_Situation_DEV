@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeSDEV_Fichier_C#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+150e2ea9cbbfef01dc9519f18b8a512b0b18e1d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41343d84a23b4c93f6a0c41f254ca173b9434196")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeSDEV_Fichier_C#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeSDEV_Fichier_C#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

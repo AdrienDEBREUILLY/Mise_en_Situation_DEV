@@ -9,7 +9,7 @@
   },
   "packageFolders": {
     "C:\\Users\\adrie\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
@@ -20,8 +20,9 @@
       "packagesPath": "C:\\Users\\adrie\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\adrie\\fleet\\Mise_en_Situation_DEV\\MeSDEV_Fichier_C#\\obj\\",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
       ],
       "configFilePaths": [
         "C:\\Users\\adrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
