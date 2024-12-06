@@ -1,0 +1,38 @@
+Guide d'Exécution et de Compilation pour les IDE
+
+Ce fichier fournit des instructions détaillées pour compiler et exécuter votre projet C#
+dans Visual Studio Community, Visual Studio Code, et JetBrains Fleet.
+
+1. Visual Studio Community
+---------------------------
+- Assurez-vous que Visual Studio Community est installé avec le support pour le développement .NET.
+- Ouvrez le fichier `MeSDEV_Fichier_C#.csproj` dans Visual Studio Community.
+- Appuyez sur `Ctrl + F5` pour compiler et exécuter le programme sans attacher le débogueur.
+- Résultat : Le programme s'exécute directement dans la console.
+
+2. Visual Studio Code (VSCode)
+------------------------------
+- Installez l'extension **C#** depuis le Marketplace de VSCode.
+- Assurez-vous que le SDK .NET est installé sur votre machine.
+- Ouvrez le dossier `MeSDEV_Fichier_C#` dans VSCode.
+- Ouvrez un terminal intégré (Ctrl + `) et exécutez les commandes suivantes :
+  - `dotnet build` : Compile le projet.
+  - `dotnet run` : Exécute le programme.
+- Résultat : Le programme s'exécute dans le terminal.
+
+3. JetBrains Fleet
+------------------
+- Installez JetBrains Fleet et ouvrez le dossier `MeSDEV_Fichier_C#`.
+- Assurez-vous que l'extension .NET est activée.
+- Ouvrez un terminal intégré et exécutez :
+  - `dotnet build` : Compile le projet.
+  - `dotnet run` : Exécute le programme.
+- Résultat : Le programme s'exécute dans le terminal.
+
+Dépannage
+---------
+- Si une commande comme `dotnet run` ou `dotnet build` ne fonctionne pas, assurez-vous que :
+  - Le SDK .NET est correctement installé et configuré (utilisez `dotnet --version` pour vérifier).
+  - Vous êtes dans le bon répertoire (celui contenant le fichier `MeSDEV_Fichier_C#.csproj`).
+
+Contactez votre administrateur ou consultez la documentation de l'IDE en cas de problème.

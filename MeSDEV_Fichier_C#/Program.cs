@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -311,7 +311,7 @@ public static class Program
         int supprimes = total - actifs; // Fiches supprimées logiquement
 
         // Affiche les statistiques
-        Console.WriteLine($"Statistiques :");
+        Console.WriteLine("Statistiques :");
         Console.WriteLine($"- Total : {total}");
         Console.WriteLine($"- Actifs : {actifs}");
         Console.WriteLine($"- Supprimés logiquement : {supprimes}");

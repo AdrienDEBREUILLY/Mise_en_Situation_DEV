@@ -1,0 +1,130 @@
+Manuel Technique - Gestion des Fiches Clients
+
+Introduction
+-------------
+Ce manuel explique le fonctionnement du programme de gestion des fiches clients développé en C#.
+Il détaille les fonctionnalités, le format des données, les cas d'erreurs pris en charge et les étapes pour l'installation et l'exécution.
+
+Lien vers le Dépôt Git
+----------------------
+Lien du dépôt Git : https://github.com/AdrienDEBREUILLY/Mise_en_Situation_DEV.git
+
+Pré-requis
+----------
+- Un environnement de développement supportant le C# (Visual Studio, Rider, etc.).
+- .NET Framework ou .NET Core installé.
+
+Installation et Exécution
+-------------------------
+1. Clonez le dépôt avec la commande suivante :
+   git clone https://github.com/AdrienDEBREUILLY/Mise_en_Situation_DEV.git
+2. Ouvrez le fichier `Program.cs` dans votre IDE.
+3. Veuillez vous diriger vers le fichier "Guide d'Exécution et de Compilation pour selon IDE"
+
+Fonctionnalités
+---------------
+Le programme permet de :
+1. Ajouter un client :
+   - Enregistre un numéro unique, un nom en majuscules, un prénom formaté (première lettre en majuscule), et un numéro de téléphone.
+   - Si des fiches supprimées existent, elles sont réutilisées.
+
+2. Afficher un client :
+   - Recherche un client par son nom (insensible à la casse).
+   - Affiche toutes les fiches correspondantes avec leur numéro.
+
+3. Afficher tous les clients :
+   - Liste les fiches actives (non supprimées) avec leur numéro et leurs informations.
+
+4. Compter les clients :
+   - Affiche le nombre de fiches actives uniquement.
+
+5. Modifier un client :
+   - Permet de modifier une fiche par son numéro.
+   - Les champs non modifiés restent inchangés.
+
+6. Supprimer un client :
+   - Réalise une suppression logique en remplaçant le champ "Nom" par un astérisque `*`.
+
+7. Restaurer un client :
+   - Permet de restaurer une fiche supprimée en remplaçant `*` par un nouveau nom.
+
+8. Afficher les fiches supprimées :
+   - Affiche uniquement les fiches marquées comme supprimées logiquement.
+
+9. Compresser le fichier :
+   - Supprime définitivement les fiches marquées comme supprimées logiquement.
+
+10. Afficher les statistiques :
+    - Affiche le total des fiches, celles actives, et celles supprimées logiquement.
+
+11. Quitter le programme :
+    - Termine proprement l'exécution.
+
+Format des Données dans le Fichier Binaire
+------------------------------------------
+Les fiches clients sont stockées dans un fichier binaire `clients.bin` avec la structure suivante :
+- NumeroClient : entier (4 octets).
+- Nom : chaîne de caractères.
+- Prenom : chaîne de caractères.
+- NumeroTelephone : chaîne de caractères (peut être null).
+
+Chaque fiche est écrite séquentiellement dans le fichier.
+
+Gestion des Cas d'Erreurs
+-------------------------
+1. **Entrées utilisateur invalides** :
+   - Le programme vérifie que le choix du menu est un nombre valide.
+   - Si une entrée pour un champ est invalide (par exemple, un numéro attendu), l'utilisateur est invité à réessayer.
+
+2. **Actions impossibles** :
+   - Le programme vérifie qu'une action est réalisable avant de l'exécuter :
+     - Modification ou suppression sur une fiche inexistante.
+     - Tentative de compression sur un fichier vide.
+
+3. **Gestion des fichiers** :
+   - Si le fichier binaire `clients.bin` est manquant, il est créé automatiquement.
+
+Exemples d'Utilisation
+----------------------
+1. Ajouter un client :
+   - Saisissez l'option 1, puis entrez les informations demandées (Numéro, Nom, Prénom, Téléphone).
+   - Résultat attendu : "Client ajouté avec succès."
+
+2. Modifier une fiche existante :
+   - Saisissez l'option 5, entrez le numéro de la fiche, modifiez les champs souhaités ou laissez vides pour conserver les anciens.
+
+3. Supprimer une fiche :
+   - Saisissez l'option 6 et entrez le numéro de la fiche à supprimer.
+   - Résultat attendu : "Client numéro X supprimé avec succès."
+
+4. Restaurer une fiche supprimée :
+   - Saisissez l'option 7, entrez le numéro de la fiche supprimée, puis donnez un nouveau nom.
+   - Résultat attendu : "Client numéro X restauré avec succès."
+
+5. Compresser le fichier :
+   - Saisissez l'option 9.
+   - Résultat attendu : "Fichier compressé avec succès."
+
+6. Afficher les statistiques :
+   - Saisissez l'option 10.
+   - Résultat attendu :
+     ```
+     Statistiques :
+     - Total : X
+     - Actifs : Y
+     - Supprimés logiquement : Z
+     ```
+
+Structure du Projet
+-------------------
+Voici la structure des fichiers du projet :
+
+Mise_en_Situation_DEV
+├── MeSDEV_Fichier_C#         // Dossier du projet C#
+│   ├── bin/debug/net8.0      // Répertoire pour les fichiers compilés
+│   ├── obj                   // Répertoire pour les fichiers temporaires de compilation
+│   ├── clients.bin           // Fichier binaire contenant les données des clients
+│   ├── MeSDEV_Fichier_C#.csproj // Fichier du projet C#
+│   └── Program.cs            // Code source principal
+├── Manuel Technique.txt      // Manuel d'utilisation détaillé
+└── README.md                 // Documentation du projet pour Git
